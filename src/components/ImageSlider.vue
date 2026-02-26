@@ -1,14 +1,15 @@
 <template>
-    <ImgComparisonSlider>
+    <ImgComparisonSlider class="slider">
+
         <img
         slot="first"
         style="width: 100%"
-        :src="before"
+        :src="after"
         />
         <img
         slot="second"
         style="width: 100%"
-        :src="after"
+        :src="before"
         />
     </ImgComparisonSlider>
 </template>
@@ -34,3 +35,18 @@ export default {
 }
 
 </script>
+
+<style scoped>
+
+.slider{
+    --divider-color: #020005;
+    --default-handle-color: #020005;
+    --divider-width: 2px;
+    --divider-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    --default-handle-width: 50px;
+    --handle-position-start: 50%;
+}
+ 
+
+
+</style>
