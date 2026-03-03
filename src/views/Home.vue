@@ -84,18 +84,6 @@ import ProjectList from '../components/ProjectList.vue';
   user-select: none;
 }
 
-.subtitle {
-  color:rgb(236, 236, 236);
-  font-family: "montserrat", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 300;
-  font-style: normal;
-  width: 50%;
-  margin: 0 auto;
-  pointer-events: none;
-  text-align: center;
-}
-
 .hero{
   position: relative;
   top: 0;
@@ -126,38 +114,6 @@ import ProjectList from '../components/ProjectList.vue';
   width: 100%;
   margin: 0%;
   color: aliceblue;
-}
-
-.projects_title{
-  width: fit-content;
-  text-align: center;
-  margin: 0 auto;
-  color: transparent;
-  background: #3B0081;
-  background: linear-gradient(20deg, rgba(59, 0, 129, 1) 0%, rgba(196, 94, 221, 1) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  font-weight: 400;
-} 
-
-.projects_title_container{
-  margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.projects_tagline{
-  width: fit-content;
-  text-align: center;
-  margin: 0 auto;
-  color: rgb(236, 236, 236);
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
 }
 
 .footer{

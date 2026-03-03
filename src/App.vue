@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import router from './router';
 import Footer from './components/Footer.vue';
 
@@ -6,14 +6,14 @@ import Footer from './components/Footer.vue';
 
 <template>
 
-<div class="navbar">
+<div id="navbar" class="navbar">
   <router-link class="navbar_link" to="/">Home</router-link>
-  <p class="navbar_p_link"><a href="#projects">Projects</a></p>
+  <a href="/#projects"><p class="navbar_p_link">Projects</p></a>
   <router-link to="/">
     <img src="/src/assets/logo.svg" alt="Logo" class="logo">
   </router-link>
   <router-link class="navbar_link" to="/about">About</router-link>
-  <p class="navbar_p_link"><a href="#contact">Contact</a></p>
+  <a href="/#contact"><p class="navbar_p_link">Contact</p></a>
   </div>
   <router-view />
 
@@ -51,27 +51,31 @@ import Footer from './components/Footer.vue';
   text-decoration: none;
 }
 
-.navbar_p_link:active{
-  color:rgb(236, 236, 236);
-  text-decoration: none; 
+a{
+  text-decoration: none;
 }
 
-.navbar_p_link:visited{
+a:visited{
   color:rgb(236, 236, 236);
   background-color: rgb(236, 236, 236);;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.navbar_link:hover .navbar_p_link a:hover {
+.navbar_link:hover{
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+.navbar_p_link{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .logo {
   width: 5rem;
   height: 5rem;
 }
-.logo:hover {
+.logo:hover, a:hover{
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
