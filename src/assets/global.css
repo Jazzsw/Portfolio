@@ -5,6 +5,7 @@ body {
     background:#020005;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    margin: 0%;
 }
 
 ::-webkit-scrollbar {

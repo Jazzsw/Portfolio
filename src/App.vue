@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import router from './router';
+import Footer from './components/Footer.vue';
 
 </script>
 
@@ -16,7 +17,7 @@ import router from './router';
   </div>
   <router-view />
 
-
+  <Footer />
   
 
 </template>
