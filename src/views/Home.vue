@@ -29,7 +29,7 @@ import ProjectList from '../components/ProjectList.vue';
       <img src="/src/assets/arrow.svg" alt="Scroll Down" class="arrow">
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="divider">
         <svg viewBox="0 0 1440 58" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" class="absolute top-0 bg-transparent"><path d="M-100 58C-100 58 218.416 36.3297 693.5 36.3297C1168.58 36.3297 1487 58 1487 58V-3.8147e-06H-100V58Z" fill="#020005"></path></svg>
       </div>
@@ -48,7 +48,7 @@ import ProjectList from '../components/ProjectList.vue';
     </section>
 
     <!-- <section class="footer"> -->
-      <div class="divider">
+      <div id="contact" class="divider">
         <svg viewBox="0 0 1440 58" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" class="absolute top-0 bg-transparent"><path d="M-100 58C-100 58 218.416 36.3297 693.5 36.3297C1168.58 36.3297 1487 58 1487 58V-3.8147e-06H-100V58Z" fill="#0e0c12"></path></svg>
       </div>
 
