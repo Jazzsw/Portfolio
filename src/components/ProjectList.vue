@@ -94,6 +94,7 @@ import router from '../router';
 .navbar_link{
   width:100%;
   align-items: end;
+  text-decoration: none;
 }
 
 .button_border{

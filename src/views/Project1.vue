@@ -11,54 +11,67 @@
         </div>
     </section>
 
-    <section>
+    <section class ="project_content">
+        <div class="divider">
+        <svg viewBox="0 0 1440 58" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" class="absolute top-0 bg-transparent"><path d="M-100 58C-100 58 218.416 36.3297 693.5 36.3297C1168.58 36.3297 1487 58 1487 58V-3.8147e-06H-100V58Z" fill="#020005"></path></svg>
+        </div>
+
         <div class="project_content_container">
 
-            <h2 class="project_subtitle">Prior UI</h2>
-            <p class="project_text">The goal is to study the current UI for Orbital Stack's main simulation page, compare it with other industry standard software, 
-                and come up with a set of suggestions to modernize the feel and improve the page's UX</p>
+            <h2 class="project_subtitle">01. Design Audit and Problem Identification</h2>
+            <p class="project_text">Orbital Stack’s core simulation interface required a structural overhaul to better align with industry-standard
+                engineering workflows. The goal was to modernize the aesthetic while significantly improving the UX for high-precision data analysis.</p>
             <img class= "inline_img" src="../assets/Sim_Before.png" alt="The main simulation page prior to changes">
-            <p class="project_text">The first main task was to create an acurate user profile for the intended users of the software. Some of the key takeaways from our 
+            <p class="project_text">The first main task was to create an accurate user profile for the intended users of the software. Some of the key takeaways from our 
                 typical user are as follows.
             </p>
             <ul class="list">
-                <li class="project_text">Largly familiar with CAD software</li>
-                <li class="project_text">Primaraly Engineering Backgrounds</li>
-                <li class="project_text">Exclusicly Desktop Users</li>
-                <li class="project_text">Need for fast and simple controls to streamline demos and presentations</li>
-                <li class="project_text">Focous on clear results that can be shared with clients and other engineers</li>
+                <li class="project_text">Domain Expertise: Users are predominantly engineers with extensive experience in CAD environments (AutoCAD, Revit, etc.).</li>
+                <li class="project_text">Platform Specifics: Exclusively desktop-based; requires high information density over mobile-friendly spacing.</li>
+                <li class="project_text">Workflow Needs: Fast, intuitive controls for live demos and high-fidelity results for stakeholder presentations.</li>
             </ul>
-            <p class="project_text">Working off of the user profile I created, I identified some software that targets the same audence. This included an extencive list
-                of CAD and data analisis tools, mainly focousing on software with manipulable workspaces and the ability to create, edit or analize a virtual artifact. 
-                Some examples of software I refrenced in this analisis are, Altium, Blender, Affinity, Autodesk Fusion 360, Autodesk Forma and more. 
+
+            <h2 class="project_subtitle">02. Competitive Analysis & Benchmarking</h2>
+            <p class="project_text">Working off of the user profile I created, I performed a Heuristic Evaluation and competitive audit of other 
+                industry-standard CAD and data analysis tools. I primarily focused on software with manipulable workspaces and the ability to create,
+                 edit or analyze a virtual artifact. These software included Altium, Blender, Autodesk Fusion 360, and more. 
             </p>
             <img class="inline_img" src="../assets/Altium_ExampleImg.png">
-            <p class="project_text">Altium is a prime example showcasing some of the recuring trends that showed up across the comparison software. 
-                it leans into the knowlage that its users are exclusicivly on desktop, allowing the UI elements to much more compressed, and geared toward
-                precice mouse controll, rather than acoounting for larger mobile-frendly elements. This also allows for the view space to be larger, which is another
-                reocouring trend. Maxamized view space to highlight the primary digital artifact, with surrounding controls often more condenced and compact. 
+            <p class="project_text">Altium is a prime example showcasing some of the recurring trends that showed up across the comparison software. 
+                it leans into the knowledge that its users are exclusivity on desktop, allowing the UI elements to much more compressed, and geared toward
+                precise mouse control, rather than accounting for larger mobile-friendly elements. This also allows for the view space to be larger, ensuring
+                the main virtual artifact is prominently displayed, and precise analysis can be performed.
             </p>
-            <br><br>
-            <p class="project_text">Returning to the orignal Orbital Stack UI, there are some primary things to note, given these observed trends, namely:</p>
+            
+            <h2 class="project_subtitle">03. Identifying Friction Points</h2>
+
+            <p class="project_text">When auditing the legacy Orbital Stack UI against these benchmarks, I identified several areas of UX Debt:</p>
             <ul class="list">
-                <li class="project_text">Toolbar is large, airy and leans more on mobile-frendly standards</li>
-                <li class="project_text">Margins across the board are quite large, leading to less space for the main simulation window</li>
-                <li class="project_text">The main sim window is cluttered with popup decorations</li>
+                <li class="project_text">Toolbar is large, airy and leans more on mobile-friendly standards</li>
+                <li class="project_text">Excessive margins reduced the available area for the simulation window.</li>
+                <li class="project_text">The main simulation window was cluttered with fragmented popup decorations, forcing users to search the screen for specific toggles.</li>
                 <li class="project_text">Sidebar and footer have excessive amounts of whitespace that could be better utilized to maximize view space</li>
             </ul>
 
+            <h2 class="project_subtitle">04. Design Solutions</h2>
+
             <img class= "inline_img" src="../assets/Sim_After.png" alt="The main simulation page after changes">
 
-            <p class="project_text">With these in mind, I created some high-fedelity mockups illistrating a moderninzed and improved UX. By reducing excesss margins, 
-                cutting down on unnessarary white space in the footer, and compleatly reworking the toolbar (including moving the decoration controls into the toolbar), 
-                the new UI better fits the needs of the intended user. By maximaizing the sim window, engineers will better see and analize the data being displayed, 
-                also making presentatons and demos more productive and informitive. Addionaly, consolodationg controls into the newly reworked toolbar will allow users 
-                to stop searching around the view for the decoration they wish to show, and rather have all toggles in a central, easy to access location, streamiling 
-                on-the-fly demos.
+            <p class="project_text">With these in mind, I developed high-fidelity mockups focused on spatial optimization and control consolidation. By reducing excess margins, 
+                cutting down on white space in the footer, the space allocated to the main simulation window can be greatly increased. 
+
+                I redesigned the toolbar to serve as a centralized hub I unified the control architecture. By migrating "decoration" controls from the canvas into a consolidated menu,
+                I streamlined the user’s mental model, and made finding controls more intuitive.
+                
+                
             </p>
         </div>
 
     </section>
+
+    <div id="contact" class="divider">
+        <svg viewBox="0 0 1440 58" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" class="absolute top-0 bg-transparent"><path d="M-100 58C-100 58 218.416 36.3297 693.5 36.3297C1168.58 36.3297 1487 58 1487 58V-3.8147e-06H-100V58Z" fill="#0e0c12"></path></svg>
+    </div>
     
 </template>
 
@@ -86,6 +99,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.project_content{
+    background-color: #0e0c12;
 }
 
 

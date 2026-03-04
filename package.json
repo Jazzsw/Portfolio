@@ -11,6 +11,7 @@
   "dependencies": {
     "@img-comparison-slider/vue": "^8.0.0",
     "@splinetool/runtime": "^1.12.58",
+    "swiper": "^12.1.2",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
   },

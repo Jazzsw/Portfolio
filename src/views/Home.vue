@@ -2,6 +2,8 @@
 import SplineBackground from '../components/Spline.vue';
 import SkillsIconList from '../components/SkillsIconList.vue';
 import ProjectList from '../components/ProjectList.vue';
+import Swiper from '../components/SwiperTesting.vue';
+
 </script>
 
 <script>

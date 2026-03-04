@@ -13,7 +13,8 @@ import Footer from './components/Footer.vue';
     <img src="/src/assets/logo.svg" alt="Logo" class="logo">
   </router-link>
   <router-link class="navbar_link" to="/about">About</router-link>
-  <a href="/#contact"><p class="navbar_p_link">Contact</p></a>
+
+  <router-link class="navbar_link" to="/contact">Contact</router-link>
   </div>
   <router-view />
 
