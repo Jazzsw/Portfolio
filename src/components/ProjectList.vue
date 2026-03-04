@@ -37,7 +37,7 @@ import router from '../router';
       <div class="project_body">
         <img src="../assets/Insight_TitleImg.png" alt="Page UI/UX Updates" class="project_image">
         <div class="project_content">
-            <p class="project_discription">I streamlined the digital asset pipeline by consolidating a fragmented, tab-based upload process into a unified management component. Furthermore, I overhauled the metadata entry system to align with the application’s design system, reducing vertical friction and resolving long-standing UX debt.</p>
+            <p class="project_discription">I streamlined the digital asset pipeline by consolidating the tab-based upload process into a unified component. Furthermore, I overhauled the metadata entry system to align with the application’s design system, resolving long-standing UX debt.</p>
             <router-link class="navbar_link" to="/Project2">
               <div class="button_border">
                 <div class="view_btn">View Project</div>
