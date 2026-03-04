@@ -50,6 +50,8 @@
 <style scoped>
 .project2{
     margin-top: 10rem;
+    display: flex;
+    justify-content: center;
 }
 
 .container{

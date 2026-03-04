@@ -18,6 +18,8 @@
 <style scoped>
 .project3{
     margin-top: 10rem;
+    display: flex;
+    justify-content: center;
 }
 
 .container{
