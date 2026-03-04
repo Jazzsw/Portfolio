@@ -16,7 +16,7 @@ import router from '../router';
       <div class="project_body">
         <img src="../assets/Sim_TitleImg.png" alt="Sim Usability Study" class="project_image">
         <div class="project_content">
-            <p class="project_discription">some discription text here about this particular project. lots of text sould wrap</p>
+            <p class="project_discription">I refactored the core simulation interface by benchmarking against industry-standard CAD tools to achieve higher information density. This optimization consolidated fragmented controls and maximized the visual viewport, significantly improving the data analysis experience for engineers.</p>
             <router-link class="navbar_link" to="/Project1">
               <div class="button_border">
                 <div class="view_btn">View Project</div>
@@ -37,7 +37,7 @@ import router from '../router';
       <div class="project_body">
         <img src="../assets/Insight_TitleImg.png" alt="Page UI/UX Updates" class="project_image">
         <div class="project_content">
-            <p class="project_discription">some discription text here about this particular project. lots of text sould wrap</p>
+            <p class="project_discription">I streamlined the digital asset pipeline by consolidating a fragmented, tab-based upload process into a unified management component. Furthermore, I overhauled the metadata entry system to align with the application’s design system, reducing vertical friction and resolving long-standing UX debt.</p>
             <router-link class="navbar_link" to="/Project2">
               <div class="button_border">
                 <div class="view_btn">View Project</div>
@@ -58,7 +58,7 @@ import router from '../router';
       <div class="project_body">
         <img src="../assets/Component_TitleImg.png" alt="Component Design" class="project_image">
         <div class="project_content">
-          <p class="project_discription">some discription text here about this particular project. lots of text sould wrap</p>
+          <p class="project_discription">Some examples of individual component designs and their implementations across different sections of the application. (full post coming soon)</p>
           <router-link class="navbar_link" to="/Project3">
             <div class="button_border">
               <div class="view_btn">View Project</div>

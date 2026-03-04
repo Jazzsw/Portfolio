@@ -8,16 +8,24 @@
 
       <div class="container">
         <p class="project_text" style="width:100%;">Hi, I'm Jazz.</p>
-        <p class="project_text" style="width:100%;">I'm a current 3rd year student at the University of Guelph, persuing a major in software engineering (co-op) and a minor in culture
-          and technology studies. CTS (culture and technology studies) is a program focoused on criticly analizing the interplay between people, culture, socitaty and technology. 
-          I also work part time as a UX Design Intern at RWDI's Orbital Stack. 
-        </p>
-        <p class="project_text" style="width:100%;">I'm particularly interested in UX desing and HCI, along with front-end development, with experence in Vue, NextJS and Electron for dev tasks.
-          For design I have experence working in Figma and Affinity. 
-          I'm currently learning 3D design in Blender and Game develepent in Unreal Engine.  
+
+        <p class="project_text" style="width:100%;">
+          I am a Software Engineering (Co-op) student at the University of Guelph, minoring in Culture and Technology Studies (CTS). My work and interests are focused on the intersection of technical architecture and human-centric design.
+          <br><br>
+          Currently, I also work as a UX Design Intern at RWDI’s Orbital Stack, where I bridge the gap between complex engineering requirements and intuitive digital experiences.
+          <br><br>
+          My academic background provides a unique blend of skills. My major provides a foundation in software systems, and my CTS minor allows me to critically analyze the interplay between society, culture, and emerging tech. 
+          This dual perspective ensures that the tools I build aren't just functional they are ethical, accessible, and meaningful.
+          <br><br>
+          My Toolkit
+          <br>
+          Design: Figma, Affinity Suite, Heuristic Evaluation, User Research.
+          <br>
+          Development: Vue.js, Next.js, Electron, Tailwind CSS.
+          <br>
+          Exploring: 3D Modeling (Blender), Game Development (Unreal Engine 5).
         </p>
       </div>
-
 
   </section>
 </template>
@@ -35,7 +43,7 @@
 
 .container{
   width: 65%;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
 }
 
 .project_text{

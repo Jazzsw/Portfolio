@@ -25,13 +25,13 @@
             <img class="inline_img" src="../assets/Insight_Before.png">
 
             <p class="project_text">First analyzing the friction points of the legacy Image Gallery/Upload page. The original design separated the Gallery and Upload functions into disparate tabs, creating several UX bottlenecks:
-                <ul class="list">
-                    <li class="project_text">Fragmented Workflow: Users had to switch between tabs to view existing assets and upload new ones, disrupting task flow.</li>
-                    <li class="project_text">Inefficient Use of Space: The page layout concentrated all controls in a small section, leaving the majority of the space unused.</li>
-                    <li class="project_text">Weak Visual Feedback: The "currently selected" state was marginalized on the far right with poor labeling, leading to user uncertainty.</li>
-                </ul>
-            </p>
-
+            </p>  
+            <ul class="list">
+                <li class="project_text">Fragmented Workflow: Users had to switch between tabs to view existing assets and upload new ones, disrupting task flow.</li>
+                <li class="project_text">Inefficient Use of Space: The page layout concentrated all controls in a small section, leaving the majority of the space unused.</li>
+                <li class="project_text">Weak Visual Feedback: The "currently selected" state was marginalized on the far right with poor labeling, leading to user uncertainty.</li>
+            </ul>
+            
             <h2 class="project_subtitle">02. Design Solutions</h2>
 
             <p class="project_text">I first expanded the size of the usable area, this new layout puts all functionality on one page, streamlining the upload process.
