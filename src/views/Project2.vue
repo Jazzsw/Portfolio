@@ -16,36 +16,43 @@
         <div class="divider">
         <svg viewBox="0 0 1440 58" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" class="absolute top-0 bg-transparent"><path d="M-100 58C-100 58 218.416 36.3297 693.5 36.3297C1168.58 36.3297 1487 58 1487 58V-3.8147e-06H-100V58Z" fill="#020005"></path></svg>
         </div>
+        <h2 class="project_subtitle">01. Workflow Optimization: Upload & Asset Selection</h2>
 
-        <p class="project_text">The Orbital Stack software, with a large feature set there are a few pages that have not been updated, or might only have inital UIs.
-                This project is focoused on simply reworking the existing UI, modernizing and improving the user experence for these pages. This particular page will look at
-                two pages, the first of which is an upload and select feature for images, and the secound is for defining metadata for uploaded results files. 
+        <p class="project_text">Orbital Stack’s expansive feature set contained legacy "initial-state" UIs that lacked the polish of newer modules. This initiative focused on refactoring two 
+            high-traffic areas: the Image Gallery/Upload component and the Metadata Definition workflow for custom file uploads.
             </p>
 
             <img class="inline_img" src="../assets/Insight_Before.png">
 
-            <p class="project_text">This is the inital UI for the first page, the gallary and upload features are on diffrent tabs, and the currently selected image
-                is off to the right and is not well labeled. Athough functional, the UX of this page is quite cumbersome, and takes navagating sevral tabs to properly 
-                upload an image. The overall upload space is also quite small and the page has lots of unused space.
+            <p class="project_text">First analyzing the friction points of the legacy Image Gallery/Upload page. The original design separated the Gallery and Upload functions into disparate tabs, creating several UX bottlenecks:
+                <ul class="list">
+                    <li class="project_text">Fragmented Workflow: Users had to switch between tabs to view existing assets and upload new ones, disrupting task flow.</li>
+                    <li class="project_text">Inefficient Use of Space: The page layout concentrated all controls in a small section, leaving the majority of the space unused.</li>
+                    <li class="project_text">Weak Visual Feedback: The "currently selected" state was marginalized on the far right with poor labeling, leading to user uncertainty.</li>
+                </ul>
             </p>
 
-            <br>
+            <h2 class="project_subtitle">02. Design Solutions</h2>
 
-            <p class="project_text">By expanding the size of the upload area, this new layout puts all functionality on one page, streamlining the upload process.
-                it also allows for larger display of some of the elements such as the currently selected image.
+            <p class="project_text">I first expanded the size of the usable area, this new layout puts all functionality on one page, streamlining the upload process.
+                By merging the gallery and upload tabs, I also eliminated unnecessary tab-switching, allowing for a more linear and intuitive "Upload-to-Select" pipeline.
+                I was also able to increase the size of the upload area improving accessibility. Finally, I redesigned the "currently selected" state to be more prominent and intuitive,
+                relocating it to a central position with clearer labeling and visual cues, enhancing user confidence in their selections.
             </p>
 
             <img class="inline_img" src="../assets/Insight_After.png">
 
-            <p class="project_text">Continuing with this project, moving on to the secound page for uploading metadata. For this page the main consurn is primaraly the UI
-                design rather than the UX or flow of the site. Overall this page feels dated, and does not fit in well with the rest of the app, breaking continuity. The format
-                also consentrates everything in a narrow center row, creating dead space along the sides and extending the scroll content.
+            <h2 class="project_subtitle">03. Continuity & Metadata Architecture</h2>
+
+            <p class="project_text">Continuing with this project, moving on to the second page for uploading metadata. For this page the main concern is primarily the 
+                fact the legacy styling broke the application's overall design language, creating a disjointed experience for the user. The format
+                also concentrates everything in a narrow center row, creating dead space along the sides and extending the scroll content.
             </p>
 
             <img class="inline_img" style="width:30%" src="../assets/MetaData_Before.png">
 
-            <p class="project_text">By reformating this page to fit with the existing modal styles for the rest of the app, and redistrabuting 
-                some of the elements to better fit the space.
+            <p class="project_text">I refactored the page to align with the application’s established Modal and Grid Systems to create a more cohesive user experience.
+                I also restructured the layout to better utilize space, implementing a more efficient grid system that organizes content logically and minimizes unnecessary scrolling.
             </p>
 
             <img class="inline_img" style="width:30%" src="../assets/MetaData_After.png">
