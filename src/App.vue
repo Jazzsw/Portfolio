@@ -1,10 +1,12 @@
 <script setup>
 import router from './router';
 import Footer from './components/Footer.vue';
+import { Analytics } from "@vercel/analytics/next"
 
 </script>
 
 <template>
+<Analytics />
 
 <div id="navbar" class="navbar">
   <router-link class="navbar_link" to="/">Home</router-link>
