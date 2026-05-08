@@ -23,6 +23,7 @@ import Footer from './components/Footer.vue';
 </template>
 
 <style scoped>
+
 .navbar {
   position: absolute;
   top: 0;
