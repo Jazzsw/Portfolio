@@ -19,7 +19,6 @@ import Footer from './components/Footer.vue';
   <router-view />
 
   <Footer />
-  
 
 </template>
 
@@ -28,11 +27,11 @@ import Footer from './components/Footer.vue';
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem;
+  padding-bottom: 1rem;
   z-index: 10;
 }
 

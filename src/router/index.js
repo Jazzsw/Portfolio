@@ -5,12 +5,16 @@ import Project1 from '../views/Project1.vue'
 import Project2 from '@/views/Project2.vue'
 import Project3 from '@/views/Project3.vue'
 import Contact from '@/views/Contact.vue'
+import Project4 from '@/views/Project4.vue'
+import Project5 from '@/views/Project5.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/project1', component: Project1 },
-  { path: '/project2', component: Project2 },
-  { path: '/project3', component: Project3 },
+  { path: '/projects/sim-usability-study', component: Project1 },
+  { path: '/projects/page-ui-ux-updates', component: Project2 },
+  { path: '/projects/component-design', component: Project3 },
+  { path: '/projects/dungeon-runner', component: Project4 },
+  { path: '/projects/sheetforge', component: Project5 },
   { path: '/about', component: About },
   { path: '/contact', component: Contact },
 ]

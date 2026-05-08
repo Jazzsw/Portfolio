@@ -1,5 +1,5 @@
 <template>
-  <div class="spline_container">
+  <div class="spline-container">
     <canvas ref="canvas3d"></canvas>
   </div>
 </template>
@@ -13,7 +13,8 @@ const canvas3d = ref(null);
 onMounted(() => {
   if (canvas3d.value) {
     const spline = new Application(canvas3d.value);
-    spline.load('https://prod.spline.design/wv3kZ1pEz0s-qMgE/scene.splinecode');
+    // spline.load('https://prod.spline.design/wv3kZ1pEz0s-qMgE/scene.splinecode');
+    spline.load('https://prod.spline.design/IpJ0d9Jpt6t5sl27/scene.splinecode');
   }
 });
 </script>
@@ -24,15 +25,15 @@ onMounted(() => {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   z-index: 1;           
   pointer-events: auto;
 }
 
 canvas {
   position: absolute;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   pointer-events: auto !important;
   touch-action: none;
 }

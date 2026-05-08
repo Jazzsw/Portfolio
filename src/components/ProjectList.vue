@@ -76,10 +76,11 @@ import router from '../router';
 
 <style scoped>
 .project_body{
-  height: 89%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .project_discription{
@@ -89,12 +90,17 @@ import router from '../router';
   font-family: "Host Grotesk", sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .navbar_link{
-  width:100%;
-  align-items: end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   text-decoration: none;
+  margin-top: 0.5rem;
 }
 
 .button_border{
@@ -103,13 +109,13 @@ import router from '../router';
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 40%;
-  height: 3rem;
+  width: 60%;
+  max-width: 150px;
+  height: 2.5rem;
   padding: 1px;
   background: linear-gradient(20deg, rgba(59, 0, 129, 1) 0%, rgba(196, 94, 221, 1) 100%);
   margin-bottom: 1rem;
   margin-right: 1rem;
-  justify-self: flex-end;
 }
 
 .view_btn{
@@ -136,8 +142,10 @@ import router from '../router';
 
 .project_image{
     margin-top: 2rem;
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    height:40%;
+    width: auto;
     border-radius: 0.5rem;
     margin-top: 1rem;
 }
@@ -147,8 +155,79 @@ import router from '../router';
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .project_items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card_container {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .button_border {
+    width: 70%;
+    height: 2.25rem;
+  }
+
+  .view_btn {
+    font-size: 0.9rem;
+  }
+
+  .project_discription {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .project_title {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project_items {
+    width: 95%;
+  }
+
+  .card_container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .button_border {
+    width: 80%;
+    max-width: 120px;
+    height: 2rem;
+  }
+
+  .project_discription {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .project_title {
+    font-size: 0.85rem;
+  }
+
+  .view_btn {
+    font-size: 0.8rem;
+  }
 }
 
 
@@ -157,9 +236,8 @@ import router from '../router';
   mask-image: url('../assets/svg_card_mask.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
-  width: 101%;
-  height: 101%;
-  aspect-ratio: 30 / 42;
+  width: 100%;
+  height: 100%;
   background-color: rgb(10, 10, 10);
 }
 .mask_item:hover{
@@ -168,6 +246,9 @@ import router from '../router';
 
 .card_container{
   width:30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   filter: drop-shadow(0px 6px 5px rgba(62, 48, 64, 0.3));
 
 }
@@ -175,15 +256,15 @@ import router from '../router';
 
 .mask_border{
   width: 100%;
-  height: auto;
-  aspect-ratio: 30 / 42;
+  height: 100%;
   background: rgba(255, 255, 255, 0.3); 
   padding: 0px; 
   mask-repeat: no-repeat;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
   
   -webkit-mask-image: url('../assets/svg_card_mask.svg');
   mask-image: url('../assets/svg_card_mask.svg');

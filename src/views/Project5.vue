@@ -5,21 +5,22 @@
         <div class="project-hero">
             <div class="project-hero-inner">
                 <span class="project-tag">// WORK / PROJECTS</span>
-                <h1 class="project-title">COMPONENT<br>UPDATES</h1>
+                <h1 class="project-title">SHEETFORGE</h1>
                 <p class="project-subtitle">
-                    Updates to individual components within the Orbital Stack software — both design and implementation.
+                    A data parsing tool designed to streamline large scale price updates built with Electron.JS and
+                    Next.js.
                 </p>
                 <div class="hud-row">
                     <span class="hud-label">TYPE</span>
                     <span class="hud-sep">|</span>
-                    <span class="hud-value">COMPONENT DESIGN & DEV</span>
+                    <span class="hud-value">DATA PARSING TOOL</span>
                     <span class="hud-sep">|</span>
                     <span class="hud-label">CLIENT</span>
                     <span class="hud-sep">|</span>
-                    <span class="hud-value">RWDI — ORBITAL STACK</span>
+                    <span class="hud-value">TDS</span>
                 </div>
             </div>
-            <img class="hero-img" src="../assets/Component_TitleImg.png" alt="Component Updates Title Image" />
+            <!-- <img class="hero-img" src="../assets/Component_TitleImg.png" alt="Component Updates Title Image" /> -->
         </div>
 
         <div class="project-content">

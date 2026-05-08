@@ -12,7 +12,7 @@ body {
   display: none;
 }
 
-
+/* * { outline: 1px solid red; } */
 
 .projects_title{
   width: fit-content;

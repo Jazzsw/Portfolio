@@ -5,21 +5,18 @@
         <div class="project-hero">
             <div class="project-hero-inner">
                 <span class="project-tag">// WORK / PROJECTS</span>
-                <h1 class="project-title">COMPONENT<br>UPDATES</h1>
+                <h1 class="project-title">DUNGEON RUNNER</h1>
                 <p class="project-subtitle">
-                    Updates to individual components within the Orbital Stack software — both design and implementation.
+                    A terminal-based dungeon crawler game built with a custom C game engine and Python scripting.
                 </p>
                 <div class="hud-row">
                     <span class="hud-label">TYPE</span>
                     <span class="hud-sep">|</span>
-                    <span class="hud-value">COMPONENT DESIGN & DEV</span>
+                    <span class="hud-value">GAME DEVELOPMENT</span>
                     <span class="hud-sep">|</span>
-                    <span class="hud-label">CLIENT</span>
-                    <span class="hud-sep">|</span>
-                    <span class="hud-value">RWDI — ORBITAL STACK</span>
                 </div>
             </div>
-            <img class="hero-img" src="../assets/Component_TitleImg.png" alt="Component Updates Title Image" />
+            <!-- <img class="hero-img" src="../assets/Component_TitleImg.png" alt="Component Updates Title Image" /> -->
         </div>
 
         <div class="project-content">

@@ -1,78 +1,176 @@
 <template>
+    <footer class="footer-section">
 
-<div class="footer">
+        <div class="footer-grid">
 
-    <div class="contact_title">CONTACT ME</div>
-    <h2 class="contact_name">Jazz Stocker-Witterick</h2>
+            <div class="footer-block">
+                <span class="block-label">// IDENTITY</span>
+                <p class="footer-name">JAZZ STOCKER-WITTERICK</p>
+                <div class="hud-row">
+                    <span class="hud-label">LOC</span>
+                    <span class="hud-sep">|</span>
+                    <span class="hud-value">43.6532° N, 79.3832° W</span>
+                    <span class="hud-sep">|</span>
+                    <span class="hud-label">STATUS</span>
+                    <span class="hud-sep">|</span>
+                    <span class="hud-value">AVAILABLE FOR WORK</span>
+                </div>
+            </div>
 
-    <div class="contact_info">
-        <a href="https://github.com/Jazzsw" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/github.svg" alt="GitHub" class="footer_icon">
-        </a>
-        <a href="https://www.linkedin.com/in/jazzsw/" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/linkedin.svg" alt="LinkedIn" class="footer_icon">
-        </a>
-        <a href="mailto:jazzswdev@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/gmail.svg" alt="Email" class="footer_icon">
-        </a>
-    </div>
+            <div class="footer-block">
+                <span class="block-label">// LINKS</span>
+                <div class="links">
+                    <a href="https://github.com/Jazzsw" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <img src="../assets/github.svg" alt="GitHub" class="footer-icon" />
+                        <span>GITHUB</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jazzsw/" target="_blank" rel="noopener noreferrer"
+                        class="footer-link">
+                        <img src="../assets/linkedin.svg" alt="LinkedIn" class="footer-icon" />
+                        <span>LINKEDIN</span>
+                    </a>
+                    <a href="mailto:jazzswdev@gmail.com" class="footer-link">
+                        <img src="../assets/gmail.svg" alt="Email" class="footer-icon" />
+                        <span>EMAIL</span>
+                    </a>
+                </div>
+            </div>
 
-    <p class="copyright">Copyright © 2025 Jazz Stocker-Witterick. All rights reserved.</p>
-</div>
+        </div>
 
+        <div class="footer-bottom">
+            <span class="hud-value">© 2025 JAZZ STOCKER-WITTERICK — ALL RIGHTS RESERVED</span>
+            <span class="hud-sep">|</span>
+            <span class="hud-label">VER</span>
+            <span class="hud-sep">|</span>
+            <span class="hud-value">2.4.1</span>
+        </div>
+
+    </footer>
 </template>
 
-
-<style scoped> 
-.contact_title{
-    color: transparent;
-    background: #3B0081;
-    background: linear-gradient(20deg, rgba(59, 0, 129, 1) 0%, rgba(196, 94, 221, 1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    width: fit-content;
-    text-align: center;
-    margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-    font-weight: 400;
-}
-.contact_name{
-    color: rgb(236, 236, 236);
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    font-weight: 300;
-    font-style: normal;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+<style scoped>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.contact_info{
-    width:40%;
-    margin: 0 auto;
+.footer-section {
+    background: #000;
+    padding: 10px 60px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    border-top: 1px solid #1a1a1a;
+    margin-bottom: 1px;
+}
+
+.footer-block {
+    padding: 36px 32px;
+    /* border: 1px solid #111; */
+    background: #000;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    color: rgb(236, 236, 236);
+    flex-direction: column;
+    gap: 20px;
 }
-.copyright{
-    margin-top: 2rem;
-    color: rgb(236, 236, 236);
+
+.block-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.25em;
+    color: #444;
+}
+
+.footer-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 0.875rem;
-    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-weight: 300;
+    color: #aaa;
+    letter-spacing: 0.12em;
 }
 
-.footer_icon {
-    width: 2.5rem;
-    height: 2.5rem;
+.hud-row {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hud-label {
+    color: #4a4a4a;
+}
+
+.hud-value {
+    color: #666;
+}
+
+.hud-sep {
+    color: #2a2a2a;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: #444;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #888;
+}
+
+.footer-icon {
+    width: 1rem;
+    height: 1rem;
     object-fit: contain;
-    filter: invert(97%) sepia(6%) saturate(261%) hue-rotate(234deg) brightness(115%) contrast(85%);
-    margin: 0.5rem;
+    filter: invert(30%) sepia(0%) brightness(80%);
+    transition: filter 0.3s ease;
+    flex-shrink: 0;
+}
+
+.footer-link:hover .footer-icon {
+    filter: invert(60%) sepia(0%) brightness(100%);
 }
 
 
+.footer-bottom {
+    padding: 20px 32px;
+    border-top: 1px solid #111;
+    background: #000;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.15em;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 60px 24px 0;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
 </style>
