@@ -15,7 +15,7 @@
 
                     <div class="scan-line"></div>
                     <div class="top-glow"></div>
-
+                <div class="main-text">
                     <div class="name-block">
                         <h1 class="name">JAZZ STOCKER-WITTERICK</h1>
                     </div>
@@ -36,6 +36,7 @@
                         <span class="hud-label">VER</span>
                         <span class="hud-value">2.4.1</span>
                     </div>
+                </div>
 
                     <!-- Scroll hint -->
                     <div class="scroll-hint" :style="{ opacity: scrollHintOpacity }">
@@ -314,6 +315,7 @@ export default {
             const w = window.innerWidth;
             const h = window.innerHeight;
             this.camera.aspect = w / h;
+            this.camera.updateProjectionMatrix();
             this.renderer.setSize(w, h);
         }
     }
@@ -325,6 +327,13 @@ export default {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.main-text{
+    margin-top:5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio-root {
@@ -373,7 +382,8 @@ export default {
 .name {
     color: rgb(236, 236, 236);
     font-family: "Montserrat", sans-serif;
-    font-size: 5rem;
+    width: 90vw;
+    font-size: clamp(1.8rem, 6vw, 5rem);
     font-weight: 300;
     letter-spacing: 0.05em;
     text-shadow:

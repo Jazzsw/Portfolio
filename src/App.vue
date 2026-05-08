@@ -1,7 +1,7 @@
 <script setup>
 import router from './router';
 import Footer from './components/Footer.vue';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/vue';
 
 </script>
 
