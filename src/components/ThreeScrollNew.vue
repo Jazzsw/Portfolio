@@ -27,14 +27,17 @@
                     </p>
 
                     <div class="hud-data">
-                        <span class="hud-label">SYS</span>
-                        <span class="hud-value">ONLINE</span>
+                        <span class="hud-label">VUE</span>
                         <span class="hud-sep">|</span>
-                        <span class="hud-label">LOC</span>
-                        <span class="hud-value">{{ coords }}</span>
+                        <span class="hud-label">TS/JS</span>
                         <span class="hud-sep">|</span>
-                        <span class="hud-label">VER</span>
-                        <span class="hud-value">2.4.1</span>
+                        <span class="hud-label">C</span>
+                        <span class="hud-sep">|</span>
+                        <span class="hud-label">Python</span>
+                        <span class="hud-sep">|</span>
+                        <span class="hud-label">Figma</span>
+
+
                     </div>
                 </div>
 
@@ -58,7 +61,6 @@ export default {
 
     data() {
         return {
-            coords: '43.6532° N, 79.3832° W',
             animFrame: null,
             mouse: { x: 0, y: 0 },
 

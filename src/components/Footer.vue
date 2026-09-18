@@ -40,10 +40,6 @@
 
         <div class="footer-bottom">
             <span class="hud-value">© 2025 JAZZ STOCKER-WITTERICK — ALL RIGHTS RESERVED</span>
-            <span class="hud-sep">|</span>
-            <span class="hud-label">VER</span>
-            <span class="hud-sep">|</span>
-            <span class="hud-value">2.4.1</span>
         </div>
 
     </footer>

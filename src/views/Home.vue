@@ -10,7 +10,7 @@ import ProjectListNew from '@/components/ProjectListNew.vue';
 <template>
   <div id="app">
     <div>
-      <ThreeScrollNew />
+      <!-- <ThreeScrollNew /> -->
       <div id="projects"></div>
       <ProjectListNew />
     </div>
@@ -19,7 +19,7 @@ import ProjectListNew from '@/components/ProjectListNew.vue';
 
 <style scoped>
 #projects {
-  margin-bottom: 3rem;
+  
 }
 
 .footer {
